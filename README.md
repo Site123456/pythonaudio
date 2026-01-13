@@ -35,21 +35,22 @@ Note: Feel free to use and modify.
 Important helpers:
 - Keyboard Shortcuts
 
+| Keys             | Notes           | Octave |
+|------------------|-----------------|--------|
+| Z X C V B N M    | C D E F G A B   | Low    |
+| Q W E R T Y U    | C D E F G A B   | High   |
 
-Keys	           Notes	        Octave
----------------------------------------
-Z X C V B N M	   C D E F G A B	Low
-Q W E R T Y U	   C D E F G A B	High
 
 
 Sharps/flats
 
-Keys	  Notes
------------------------
-S D	    C# D#
-G H J	  F# G# A#
-2 3   	C# D# (high)
-5 6 7	  F# G# A# (high)
+| Keys     | Notes            |
+|----------|------------------|
+| S D      | C# D#            |
+| G H J    | F# G# A#         |
+| 2 3      | C# D# (high)     |
+| 5 6 7    | F# G# A# (high)  |
+
 
 
 
