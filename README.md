@@ -4,35 +4,32 @@ Includes a 6×20 fretboard, piano‑style keyboard shortcuts, reverb, delay, dis
 Note: Feel free to use and modify.
 
 # Render preview
-![Guitar Synth Preview](https://github.com/Site123456/pythonaudio/blob/main/pyrendercosomforengine.png)
+<img src="https://github.com/Site123456/pythonaudio/blob/main/pyrendercosomforengine.png" width="200">
 
 #🚀 Features
+
 - 🎸 6×20 clickable fretboard
 
-- 🎹 Piano‑style keyboard shortcuts (white + black keys)
+- 🎹 keyboard shortcuts
 
 - 🔊 Polyphonic audio engine (multiple notes at once)
 
-- 🎛️ Effects:
-
-   - Reverb
-
-   - Delay
-
-   - Distortion
+- 🎛️ Effects: (Reverb, Delay, Distortion)
 
 - 🪵 Pick‑position modeling
 
-- 🪘 Body resonance simulation
-
 - 🎚️ Master volume control
 
-- 🪟 Modern draggable UI
+- ⚡ Low‑latency
 
-- ⚡ Low‑latency real‑time synthesis
+# Get started:
 
+###### 1 Install dependencies 
+```pip install sounddevice numpy mido python-rtmidi```
+###### 2 Run it with: python 3.10+
+```python main.py```
 
-Important helpers:
+# Important helpers:
 - Keyboard Shortcuts
 
 | Keys             | Notes           | Octave |
@@ -51,12 +48,3 @@ Sharps/flats
 | 2 3      | C# D# (high)     |
 | 5 6 7    | F# G# A# (high)  |
 
-
-
-
-# Get started:
-
-###### 1 Install dependencies 
-```pip install sounddevice numpy mido python-rtmidi```
-###### 2 Run it with: python 3.10+
-```python main.py```
