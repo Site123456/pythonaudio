@@ -1,6 +1,7 @@
 # pythonaudio
 A simple, real‑time guitar synthesizer built with Python for testing audio for another project.
 Includes a 6×20 fretboard, piano‑style keyboard shortcuts, reverb, delay, distortion, pick‑position modeling, and body‑resonance simulation.
+Note: Feel free to use and modify.
 
 # Render preview
 ![Guitar Synth Preview](https://github.com/Site123456/pythonaudio/blob/main/pyrendercosomforengine.png)
@@ -52,8 +53,9 @@ G H J	  F# G# A#
 
 
 
-# Dependencies:
-## 1 Install dependencies 
+# Get started:
+
+###### 1 Install dependencies 
 ```pip install sounddevice numpy mido python-rtmidi```
-## 2 Run it with: python 3.10+
+###### 2 Run it with: python 3.10+
 ```python main.py```
