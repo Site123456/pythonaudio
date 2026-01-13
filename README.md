@@ -53,9 +53,7 @@ G H J	  F# G# A#
 
 
 # Dependencies:
-Install dependencies 
-`pip install sounddevice numpy`
-And for full:
-`pip install mido python-rtmidi`
-Run it with: python 3.10+
-`python main.py`
+## 1 Install dependencies 
+```pip install sounddevice numpy mido python-rtmidi```
+## 2 Run it with: python 3.10+
+```python main.py```
