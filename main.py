@@ -7,9 +7,7 @@ import time
 
 SAMPLE_RATE = 44100
 
-# ================
 # Synth & mixing
-# ================
 active_notes = []
 lock = threading.Lock()
 
@@ -141,9 +139,7 @@ stream = sd.OutputStream(
 )
 stream.start()
 
-# ================
 # Guitar & piano mapping
-# ================
 open_string_freqs = {
     "E2": 82.41,
     "A2": 110.00,
@@ -197,9 +193,7 @@ def handle_key_press(ch: str):
         add_note(freq, pick_pos=pick_pos, body_res=body_res)
 
 
-# ================
 # Tkinter UI
-# ================
 root = tk.Tk()
 root.overrideredirect(True)
 root.geometry("1150x720")
@@ -222,7 +216,7 @@ title_bar.bind("<B1-Motion>", drag)
 
 title_label = tk.Label(
     title_bar,
-    text="🎸 Python Guitar Synth – Piano Keys + Fretboard",
+    text="Python audio test",
     fg="#f9fafb",
     bg="#111827",
     font=("Segoe UI", 14, "bold"),
