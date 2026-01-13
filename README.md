@@ -1,9 +1,7 @@
 # python audio
 A simple, real‑time guitar synthesizer built with Python for testing audio for another project.
-Includes a 6×20 fretboard, piano‑style keyboard shortcuts, reverb, delay, distortion, pick‑position modeling, and body‑resonance simulation.
 Note: Feel free to use and modify.
 
-# Render preview
 <img src="https://github.com/Site123456/pythonaudio/blob/main/pyrendercosomforengine.png" width="400">
 
 # Features
