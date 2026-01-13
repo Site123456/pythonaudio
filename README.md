@@ -4,7 +4,7 @@ Includes a 6×20 fretboard, piano‑style keyboard shortcuts, reverb, delay, dis
 Note: Feel free to use and modify.
 
 # Render preview
-<img src="https://github.com/Site123456/pythonaudio/blob/main/pyrendercosomforengine.png" width="200">
+<img src="https://github.com/Site123456/pythonaudio/blob/main/pyrendercosomforengine.png" width="400">
 
 # Features
 
