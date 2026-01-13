@@ -1,2 +1,58 @@
 # pythonaudio
-simple guitar player in python
+A simple, real‑time guitar synthesizer built with Python for testing audio for another project.
+Includes a 6×20 fretboard, piano‑style keyboard shortcuts, reverb, delay, distortion, pick‑position modeling, and body‑resonance simulation.
+
+#🚀 Features
+- 🎸 6×20 clickable fretboard
+
+- 🎹 Piano‑style keyboard shortcuts (white + black keys)
+
+- 🔊 Polyphonic audio engine (multiple notes at once)
+
+- 🎛️ Effects:
+
+   - Reverb
+
+   - Delay
+
+   - Distortion
+
+- 🪵 Pick‑position modeling
+
+- 🪘 Body resonance simulation
+
+- 🎚️ Master volume control
+
+- 🪟 Modern draggable UI
+
+- ⚡ Low‑latency real‑time synthesis
+
+
+Important helpers:
+- Keyboard Shortcuts
+
+
+Keys	           Notes	        Octave
+---------------------------------------
+Z X C V B N M	   C D E F G A B	Low
+Q W E R T Y U	   C D E F G A B	High
+
+
+Sharps/flats
+
+Keys	  Notes
+-----------------------
+S D	    C# D#
+G H J	  F# G# A#
+2 3   	C# D# (high)
+5 6 7	  F# G# A# (high)
+
+
+
+# Dependencies:
+Install dependencies 
+`pip install sounddevice numpy`
+And for full:
+`pip install mido python-rtmidi`
+Run it with: python 3.10+
+`python main.py`
