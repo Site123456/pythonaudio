@@ -6,7 +6,7 @@ Note: Feel free to use and modify.
 # Render preview
 <img src="https://github.com/Site123456/pythonaudio/blob/main/pyrendercosomforengine.png" width="200">
 
-#🚀 Features
+# Features
 
 - 🎸 6×20 clickable fretboard
 
